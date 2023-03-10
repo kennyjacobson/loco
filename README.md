@@ -1,5 +1,7 @@
 # loco (name pending)
 
+This document is still very much a work in progress.
+
 ## Problem Statement
 
 Geolocation data has a multitude of uses cases from Yelp! reviews and Pokemon Go all the way down to a corporate website's "find a location near you" page. These location services are often either custom made or come by way of API's provided by large coorporations like Google and Bing.  To build your own requires time, money, and expertise, but to rely on corporate API providers subjects you to vendor risk. In a perfect world, the geolocation data and services would exist as an open source protocol that lives on public database with a public API. To make this a reality, we proposed the creation of an EVM smart contact that will allow users to input location data, read it back from the contract, and to search for locations near a given coordinate. Because this is on-chain, other EVM smart contracts will be able to have access to geolocation services without the need for an oracle. 
